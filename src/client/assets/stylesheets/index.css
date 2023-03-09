@@ -18,10 +18,11 @@ body {
   flex-direction: column;
   font-family: Arial;
   min-height: 100vh;
+  position: relative;
 }
 
 header {
-  background-image: url('https://via.placeholder.com/1150');
+  background-image: url('/assets/images/f1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -93,7 +94,13 @@ section {
 footer {
   height: 200px;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
+
+
 
 /* -------------------  TABLET  --------------------- */
 @media (min-width: 768px) {
